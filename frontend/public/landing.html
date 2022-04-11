@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Mosachi - The Smart Gradebook</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9Q3RDKCLT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-V9Q3RDKCLT');
+        </script>
+
+        <link rel="stylesheet" href="/landing.css" />
+        <link rel="stylesheet" href="/period.css" />
+    </head>
+    <body>
+        <div class="top-right-login-wrapper">
+            <a class="top-right-login-button top-right-login-button-outline btn" href="/login">Login</a>
+        </div>
+        <div class="title-section">
+            <div class="title-section-text-container">
+                <div class="title-section-text-wrapper">
+                    <div class="title-section-title-wrapper">
+                        <img class="title-section-title-img" src="/title-logo-white.svg">
+                    </div>
+                    <h3 class="title-section-description">The gradebook calculator for Synergy</h3>
+                    <a class="title-section-login-button btn" href="/login">Log in</a>
+                </div>
+            </div>
+            <div class="title-section-image-wrapper">
+                <div class="iphone-image"></div>
+            </div>
+        </div>
+        <div class="demo-section">
+            <div id="demo-root"></div>
+        </div>
+        <div class="about-section">
+            <p class="about-header display-2">About</p>
+            <div class="about-row">
+                <div class="about-col col">
+                    <div class="about-icon-wrapper">
+                        <i class="about-icon fa-solid fa-right-to-bracket"></i>
+                    </div>
+                    <h2 class="about-title">Login</h2>
+                    <p>No sign up needed. Simply login with your Synergy credentials so that we can fetch your grades.</p>
+                </div>
+                <div class="about-col col">
+                    <div class="about-icon-wrapper">
+                        <i class="about-icon fa-solid fa-list"></i>
+                    </div>
+                    <h2 class="about-title">Class List</h2>
+                    <p>Right when you log in to Mosachi, you get a centralized, clutter-free view of all your classes. Refreshing.</p>
+                </div>
+                <div class="about-col col">
+                    <div class="about-icon-wrapper">
+                        <i class="about-icon fa-solid fa-calculator"></i>
+                    </div>
+                    <h2 class="about-title">Calculate</h2>
+                    <p>Make a change to any assignment and see how it impacts your grade.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <img class="footer-logo-circle" src="/logo-circle.png">
+            <img class="footer-logo-text" src="/title-logo-white.svg">
+        </footer>
+        
+        <script src="/demo.bundle.js"></script>
+        <script>
+            $(window).scroll(function () {
+                if($(".top-right-login-wrapper").offset().top > $(window).height()) {
+                    $(".top-right-login-button").removeClass("top-right-login-button-outline");
+                    $(".top-right-login-button").addClass("top-right-login-button-solid");
+                }
+                else {
+                    $(".top-right-login-button").removeClass("top-right-login-button-solid");
+                    $(".top-right-login-button").addClass("top-right-login-button-outline");
+                }
+            });
+            $(window).trigger("scroll");
+        </script>
+    </body>
+</html>

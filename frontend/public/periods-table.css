@@ -1,0 +1,78 @@
+.periods-list-page-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.logout-button-wrapper {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.logout-button {
+    border-radius: 1000px;
+    padding: 0.5rem 1rem;
+}
+
+.title-wrapper {
+    margin-bottom: 3rem;
+    max-width: 100vw;
+    text-align: center;
+}
+.title {
+    font-size: 4rem;
+}
+
+.periods-table {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    width: 350px;
+    padding: 0;
+    border: 1px solid #bbb;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.period-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.period-row:nth-child(n+2) {
+    border-top: 1px solid #bbb;
+}
+.period-row-left {
+    display: flex;
+    flex-direction: column;
+}
+.period-row-left p {
+    margin-bottom: 0;
+    line-height: 1.25em;
+}
+.period-row-name {
+    font-size: 1.25rem;
+    color: #6c747c;
+}
+.period-row-grade {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: #7c949c;
+}
+.period-row-details-button {
+    border-radius: 1000px;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+}
+.period-row-details-text {
+    justify-content: center;
+    display: inline-block;
+    margin: 0 0.5rem 0 0;
+    vertical-align: center;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.period-row-details-right-arrow {
+    font-size: 1.25rem;
+}

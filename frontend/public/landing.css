@@ -1,0 +1,208 @@
+.top-right-login-wrapper {
+    position: fixed;
+    top: 32px;
+    right: 48px;
+}
+.top-right-login-button {
+    font-size: 1rem;
+    border-radius: 1000px;
+    padding: 0.5rem 1rem;
+    z-index: 2;
+}
+.top-right-login-button-outline {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.top-right-login-button-outline:hover {
+    color: #ddd;
+    border-color: #ddd;
+}
+.top-right-login-button-solid {
+    background-color: white;
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.top-right-login-button-solid:hover {
+    color: white;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.title-section {
+    height: 100vh;
+    min-height: 500px;
+    background-image: linear-gradient(135deg, #28c76f, #81fbb8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 150px;
+}
+.title-section-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-section-title-wrapper {
+    height: 88px;
+    margin-bottom: 8px;
+}
+.title-section-title-img {
+    height: 100%;
+}
+.title-section-description {
+    color: white;
+    font-weight: 400;
+}
+.title-section-login-button {
+    margin-top: 32px;
+    padding: 8px 32px;
+    border-color: #599be0;
+    background-color: #599be0;
+    color: white;
+    border-radius: 16px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    transition: 0.5s;
+}
+.title-section-login-button:hover {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: white;
+}
+.title-section-image-wrapper {
+    width: 450px;
+    height: 100%;
+}
+.iphone-image {
+    background-image: url("/iphone screenshot.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.about-section {
+    padding: 96px 0;
+}
+.about-header {
+    margin-bottom: 96px;
+    text-align: center;
+}
+.about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.about-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0 32px;
+    text-align: center;
+}
+.about-icon {
+    font-size: 6rem;
+}
+.about-title {
+    margin: 32px 0;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    padding: 4rem 0;
+}
+.footer-logo-circle {
+    height: 80px;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+.footer-logo-text {
+    height: 54px;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width: 1300px) {
+    .title-section {
+        padding-left: 70px;
+        padding-right: 90px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .title-section {
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .title-section {
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+        padding: 80px 0 0 0;
+    }
+    .title-section-text-container {
+        display: block;
+        width: 100%;
+    }
+    .title-section-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-section-description {
+        margin-top: 16px;
+    }
+    .title-section-title-wrapper {
+        height: auto;
+        width: 50%;
+    }
+    .title-section-title-img {
+        height: auto;
+        width: 100%;
+    }
+    .title-section-description {
+        padding: 0 20%;
+        text-align: center;
+    }
+    .title-section-image-wrapper {
+        flex-grow: 1;
+        width: 80%;
+        height: auto;
+        margin: 32px 0 0 0;
+    }
+    .iphone-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .about-row {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .about-col {
+        width: 300px;
+        flex-basis: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title-section-title-wrapper {
+        width: 70%;
+    }
+    .title-section-image-wrapper {
+        width: 100%;
+    }
+}
