@@ -69,7 +69,8 @@ function getGradebook(username, password, urlSubdomain) {
         if(invalidCredetials) return INVALID_CREDENTIALS_STR;
         else return periods;
     }).catch((error) => {
-        //either url subdomain is wrong, or inner try/catch threw. Fallback to returning login failed
+        //only cause I can think of is urlSubdomain doesn't exist, but apparently there are other issues
+        //fallback to returning login failed
         console.error(error);
         console.log(`urlSubdomain: ${urlSubdomain}`);
         return INVALID_CREDENTIALS_STR;
