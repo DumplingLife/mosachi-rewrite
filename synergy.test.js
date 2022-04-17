@@ -12,6 +12,7 @@ test('synergy regular API call', (done) => {
         for(let period of gradebook) {
             expect(period.name).toBeDefined();
             for(let assignment of period.assignments) {
+                expect(assignment.id).toBeDefined();
                 expect(assignment.name).toBeDefined();
                 expect(assignment.category).toBeDefined();
                 expect(assignment.pointsEarned).toBeDefined();
@@ -26,8 +27,12 @@ test('synergy regular API call', (done) => {
     });
 });
 test('synergy API call with wrong school district', (done) => {
+    //console.error is annoying, so mock it away and check that it is called
+    console.error = jest.fn();
     synergy.getGradebook('wrongUsername','badPassword','test-bad-school-district').then((gradebook) => {
         expect(gradebook).toBe(synergy.INVALID_CREDENTIALS_STR);
+        expect(console.error).toHaveBeenCalled();
+        console.error.mockClear();
         done();
     });
 });

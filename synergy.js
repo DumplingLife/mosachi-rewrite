@@ -103,7 +103,7 @@ function getPeriod(periodSrc) {
         let categoriesSrc = periodSrc.Marks[0].Mark[0].GradeCalculationSummary[0].AssignmentGradeCalc;
         period.categories = getCategories(categoriesSrc);
         for(let assignmentSrc of assignmentsSrc) {
-            period.assignments.push(getAssignmentCategoryFilling(assignmentSrc, period.categories));
+            period.assignments.push(getAssignmentWithCategoryFilling(assignmentSrc, period.categories));
         }
     }
     //no categories
@@ -143,7 +143,7 @@ function getCategories(categoriesSrc) {
  * get full assignment (name, category, pointsEarned, pointsPossible)
  * category filling: if assignment has new category, add a new 0-weight category to categories
  */
-function getAssignmentCategoryFilling(assignmentSrc, categories) {
+function getAssignmentWithCategoryFilling(assignmentSrc, categories) {
     let assignment = getAssignmentWithoutCategory(assignmentSrc);
 
     //CATEGORY
@@ -162,19 +162,15 @@ function getAssignmentCategoryFilling(assignmentSrc, categories) {
     return assignment;
 }
 
-/**
- * get name, pointsEarned, and pointsPossible fields
- * no category filling
- */
+
+//get id, name, pointsEarned, and pointsPossible
 function getAssignmentWithoutCategory(assignmentSrc) {
     let assignment = {};
-
-    //name
+    assignment.id = assignmentSrc.$.GradebookID;
     assignment.name = assignmentSrc.$.Measure;
 
     //pointsEarned and pointsPossible
-    let pointsStr = assignmentSrc.$.Points;
-    //"33.00 / 33.0000"
+    let pointsStr = assignmentSrc.$.Points; //"33.00 / 33.0000"
     if(pointsStr.includes('/')) {
         let pointsStrSplit = pointsStr.split('/');
         assignment.pointsEarned = parseFloat(pointsStrSplit[0]);

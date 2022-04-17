@@ -15,6 +15,9 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
+    "mongoose": "^6.3.0",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.3",
     "path": "^0.12.7",
     "xml2js": "^0.4.23"
   },
