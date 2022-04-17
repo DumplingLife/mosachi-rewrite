@@ -39,10 +39,7 @@ export default function AssignmentGrid(props) {
     for(let i=0; i<props.period.assignments.length; i++) {
         let assignment = props.period.assignments[i];
 
-        /**
-         * key: using index for key. Some sort of id would be better, but it's harder to add. name won't work because of duplicate names
-         * form onChange handlers: use changeAssignment helper function to correctly set state (with cloning then mutate)
-         */
+        //form onChange handlers: use changeAssignment helper function to correctly set state (with cloning then mutate)
         assignmentRows.push(<AssignmentRow
             key={assignment.id}
             assignment={assignment}

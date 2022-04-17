@@ -6,8 +6,7 @@ import _ from 'lodash';
 import { calculateGradeDisplay } from './gradeCalc.js';
 
 export default function Period(props) {
-    //initialize state
-    //attach assignment ids
+    //override assignment ids
     let initialPeriodWithIds = _.cloneDeep(props.period);
     for(let assignment of initialPeriodWithIds.assignments) {
         assignment.id = _.uniqueId();
