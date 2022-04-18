@@ -2,6 +2,8 @@ require('dotenv').config();
 
 const textNotifications = require('./textNotifications.js');
 const schedule = require('node-schedule');
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/mosachi_rewrite_db');
 
 //cron jobs (multiple because there is no way to specify multiple times each day)
 //8:00
