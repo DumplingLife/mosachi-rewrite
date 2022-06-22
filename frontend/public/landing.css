@@ -129,6 +129,12 @@
     margin: auto;
     display: block;
 }
+.footer-terms-link {
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1300px) {
     .title-section {
