@@ -27,7 +27,7 @@ function getGradebook(username, password, urlSubdomain) {
             methodName: 'Gradebook',
             paramStr: `<Parms><ChildIntID>0</ChildIntID><ReportPeriod>${QUARTERS[urlSubdomain] ?? DEFAULT_QUARTER}</ReportPeriod></Parms>`
         }
-    }).then((res) => {       
+    }).then((res) => {
         //parseString uses callback for backward-compatability, so this code is weird (periods being outside and modified inside callback)
         let invalidCredetials = false;
         let periods = [];
@@ -38,7 +38,7 @@ function getGradebook(username, password, urlSubdomain) {
             }
             else {
                 /**
-                 * try/catch cases:
+                 * error cases:
                  *  - getPeriod does not work, then skip the period but continue with the rest
                  *  - periodsSrc is undefined, then fallback to login failed
                  *  - something else, then check if periods makes sense, return it if it does, otherwise fallback to login failed
@@ -93,7 +93,17 @@ function getPeriod(periodSrc) {
 
     //CATEGORIES AND ASSIGNMENTS
     period.assignments = [];
-    let assignmentsSrc = periodSrc.Marks[0].Mark[0].Assignments[0].Assignment;
+    let assignmentsSrc;
+    try {
+        assignmentsSrc = periodSrc.Marks[0].Mark[0].Assignments[0].Assignment;
+    } catch(error) {
+        console.error(error);
+        console.log("periodSrc JSON stringify:");
+        console.log(JSON.stringify(periodSrc));
+        throw error;
+    }
+
+
     //if undefined, null, or empty string, set it to empty array
     //... == null also checks for undefined
     if(assignmentsSrc == null || assignmentsSrc == '') assignmentsSrc = [];

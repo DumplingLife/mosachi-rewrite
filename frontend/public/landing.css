@@ -64,7 +64,7 @@
     border-radius: 16px;
     font-size: 1.25rem;
     line-height: 1.5;
-    transition: 0.5s;
+    transition: color 0.4s, background-color 0.4s, border-color 0.4s;
 }
 .title-section-login-button:hover {
     color: #6c757d;

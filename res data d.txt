@@ -1,0 +1,728 @@
+<Gradebook xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Type="Traditional" ErrorMessage="" HideStandardGraphInd="false" HideMarksColumnElementary="true" HidePointsColumnElementary="false" HidePercentSecondary="false" DisplayStandardsData="true" GBStandardsTabDefault="true">
+     <ReportingPeriods>
+          <ReportPeriod Index="0" GradePeriod="Quarter 1" StartDate="9/1/2021" EndDate="11/5/2021" />
+          <ReportPeriod Index="1" GradePeriod="Semester 1 Final" StartDate="11/8/2021" EndDate="1/28/2022" />
+          <ReportPeriod Index="2" GradePeriod="Quarter 3" StartDate="1/31/2022" EndDate="4/19/2022" />
+          <ReportPeriod Index="3" GradePeriod="Semester 2 FInal" StartDate="4/20/2022" EndDate="6/21/2022" />
+     </ReportingPeriods>
+     <ReportingPeriod GradePeriod="Semester 2 FInal" StartDate="4/20/2022" EndDate="6/21/2022" />
+     <Courses>
+          <Course UsesRichContent="true" Period="1" Title="AP Lit/Comp (ENA702.0)" Room="2106" Staff="Bryona Golding" StaffEMail="goldingb@bsd405.org" StaffGU="11E82399-53F1-491C-9133-D5D9B479598E" HighlightPercentageCutOffForProgressBar="75">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="91.03">
+                         <StandardViews />
+                         <GradeCalculationSummary>
+                              <AssignmentGradeCalc Type="Reading" Weight="40%" Points="148.88" PointsPossible="164.00" WeightedPct="36.31%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Literary argument" Weight="35%" Points="68.25" PointsPossible="75.00" WeightedPct="31.85%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Writing" Weight="20%" Points="100.75" PointsPossible="110.00" WeightedPct="18.31%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="TOTAL" Weight="100%" Points="317.88" PointsPossible="349.00" WeightedPct="91.03%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Speaking" Weight="5%" Points="0.00" PointsPossible="0.00" WeightedPct="0.00%" CalculatedMark="0" />
+                         </GradeCalculationSummary>
+                         <Assignments>
+                              <Assignment GradebookID="936382" Measure="This I Believe" Type="Writing" Date="6/1/2022" DueDate="6/8/2022" Score="93" ScoreType="Percentage" Points="27.90 / 30.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/9/2022" DropEndDate="6/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="933677" Measure="TIB 2+ essays -- drafts" Type="Writing" Date="5/31/2022" DueDate="6/6/2022" Score="100" ScoreType="Percentage" Points="10.00 / 10.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/6/2022" DropEndDate="6/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="933682" Measure="TIB proposals" Type="Writing" Date="5/16/2022" DueDate="6/2/2022" Score="93" ScoreType="Percentage" Points="9.30 / 10.0000" Notes="two submitted late" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/6/2022" DropEndDate="6/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="915825" Measure="Open FRQ" Type="Reading" Date="4/28/2022" DueDate="4/28/2022" Score="100" ScoreType="Percentage" Points="5.00 / 5.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/4/2022" DropEndDate="5/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="907183" Measure="Hamlet discussion prep" Type="Reading" Date="4/20/2022" DueDate="4/22/2022" Score="60" ScoreType="Percentage" Points="3.00 / 5.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/22/2022" DropEndDate="4/22/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="916046" Measure="Prose FRQ Literary argument" Type="Literary argument" Date="4/22/2022" DueDate="4/22/2022" Score="98" ScoreType="Percentage" Points="14.70 / 15.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/4/2022" DropEndDate="5/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="916042" Measure="Prose FRQ Reading" Type="Reading" Date="4/22/2022" DueDate="4/22/2022" Score="100" ScoreType="Percentage" Points="20.00 / 20.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/4/2022" DropEndDate="5/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="916050" Measure="Prose FRQ Writing" Type="Writing" Date="4/22/2022" DueDate="4/22/2022" Score="93" ScoreType="Percentage" Points="13.95 / 15.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/4/2022" DropEndDate="5/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="907136" Measure="Poetry FRQ Literary Argument" Type="Literary argument" Date="4/20/2022" DueDate="4/20/2022" Score="88" ScoreType="Percentage" Points="13.20 / 15.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/21/2022" DropEndDate="4/22/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="907132" Measure="Poetry FRQ Reading" Type="Reading" Date="4/20/2022" DueDate="4/20/2022" Score="88" ScoreType="Percentage" Points="17.60 / 20.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/21/2022" DropEndDate="4/22/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="908977" Measure="Poetry FRQ Writing" Type="Writing" Date="4/20/2022" DueDate="4/20/2022" Score="88" ScoreType="Percentage" Points="13.20 / 15.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/21/2022" DropEndDate="4/22/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904584" Measure="Hamlet Acts 1-3 test" Type="Reading" Date="4/8/2022" DueDate="4/8/2022" Score="92.5" ScoreType="Percentage" Points="37.00 / 40.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/18/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913655" Measure="Drama FRQ" Type="Reading" Date="4/8/2022" DueDate="4/8/2022" Score="Not Graded" ScoreType="Percentage" Points="20.0000 Points Possible" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/2/2022" DropEndDate="5/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="900669" Measure="3.2.1-296 quiz" Type="Reading" Date="4/1/2022" DueDate="4/1/2022" Score="80" ScoreType="Percentage" Points="0.80 / 1.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/6/2022" DropEndDate="4/6/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="901841" Measure="FRQ prose #2 thesis" Type="Literary argument" Date="3/31/2022" DueDate="3/31/2022" Score="Not Graded" ScoreType="Percentage" Points="5.0000 Points Possible" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/7/2022" DropEndDate="4/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="899534" Measure="FRQ poetry #2 thesis" Type="Literary argument" Date="3/25/2022" DueDate="3/25/2022" Score="93" ScoreType="Percentage" Points="4.65 / 5.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/5/2022" DropEndDate="4/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="890903" Measure="Act 2 test" Type="Reading" Date="3/24/2022" DueDate="3/24/2022" Score="96.7" ScoreType="Percentage" Points="9.67 / 10.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/23/2022" DropEndDate="3/23/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="900672" Measure="2.2.393-634 quiz" Type="Reading" Date="3/22/2022" DueDate="3/22/2022" Score="Not Graded" ScoreType="Percentage" Points="1.0000 Points Possible" Notes="Excused " TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/6/2022" DropEndDate="4/6/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="896431" Measure="FRQ prose #1 thesis" Type="Literary argument" Date="3/17/2022" DueDate="3/17/2022" Score="93" ScoreType="Percentage" Points="4.65 / 5.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/31/2022" DropEndDate="3/31/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885484" Measure="Act 1 test" Type="Reading" Date="3/15/2022" DueDate="3/15/2022" Score="96.7" ScoreType="Percentage" Points="9.67 / 10.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/16/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="882188" Measure="1.5 quiz" Type="Reading" Date="3/14/2022" DueDate="3/14/2022" Score="80" ScoreType="Percentage" Points="0.80 / 1.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/11/2022" DropEndDate="3/11/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885476" Measure="1.3 quiz" Type="Reading" Date="3/11/2022" DueDate="3/11/2022" Score="96" ScoreType="Percentage" Points="0.96 / 1.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/16/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="880134" Measure="1.2 Text and subtext" Type="Reading" Date="3/8/2022" DueDate="3/10/2022" Score="88" ScoreType="Percentage" Points="0.88 / 1.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/9/2022" DropEndDate="3/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="895196" Measure="FRQ poetry #1 thesis" Type="Literary argument" Date="3/10/2022" DueDate="3/10/2022" Score="93" ScoreType="Percentage" Points="4.65 / 5.0000" Notes="revision score" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/30/2022" DropEndDate="3/30/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="873880" Measure="Essay process" Type="Writing" Date="2/8/2022" DueDate="2/28/2022" Score="Not Graded" ScoreType="Percentage" Points="10.0000 Points Possible" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/28/2022" DropEndDate="3/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="873865" Measure="Frankenstein essay" Type="Reading" Date="2/8/2022" DueDate="2/18/2022" Score="88" ScoreType="Percentage" Points="35.20 / 40.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/28/2022" DropEndDate="3/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="873869" Measure="Frankenstein essay" Type="Literary argument" Date="2/8/2022" DueDate="2/18/2022" Score="88" ScoreType="Percentage" Points="26.40 / 30.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/28/2022" DropEndDate="3/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="873876" Measure="Frankenstein essay" Type="Writing" Date="2/8/2022" DueDate="2/18/2022" Score="88" ScoreType="Percentage" Points="26.40 / 30.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/28/2022" DropEndDate="3/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="855472" Measure="Frankenstein reading test" Type="Reading" Date="2/1/2022" DueDate="2/1/2022" Score="83" ScoreType="Percentage" Points="8.30 / 10.0000" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/1/2022" DropEndDate="2/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="859935" Measure="Frankenstein reading notes" Type="Reading" Date="1/31/2022" DueDate="2/1/2022" Score="Not Graded" ScoreType="Percentage" Points="20.0000 Points Possible" Notes="" TeacherID="31949" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/7/2022" DropEndDate="2/8/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="false" Period="2" Title="AP Physics 2 (SCA702.0)" Room="1121" Staff="Valentina Craciunoiu" StaffEMail="craciunoiuv@bsd405.org" StaffGU="48F91D5D-034F-4C59-882F-96E0865C6C76" HighlightPercentageCutOffForProgressBar="50">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="95.3">
+                         <StandardViews />
+                         <GradeCalculationSummary>
+                              <AssignmentGradeCalc Type="Homework" Weight="20%" Points="146.00" PointsPossible="170.00" WeightedPct="17.18%" CalculatedMark="B" />
+                              <AssignmentGradeCalc Type="Class Assignment" Weight="20%" Points="178.00" PointsPossible="185.00" WeightedPct="19.24%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Test/Project/Portfolio" Weight="60%" Points="165.00" PointsPossible="168.00" WeightedPct="58.93%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="TOTAL" Weight="100%" Points="489.00" PointsPossible="523.00" WeightedPct="95.30%" CalculatedMark="A" />
+                         </GradeCalculationSummary>
+                         <Assignments>
+                              <Assignment GradebookID="933832" Measure="2nd Semester Project 2" Type="Test/Project/Portfolio" Date="6/1/2022" DueDate="6/14/2022" Score="Not Graded" ScoreType="Raw Score" Points="25.0000 Points Possible" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Students' choice of experimental illustration of a principle/law covered by this year curriculum" HasDropBox="false" DropStartDate="6/6/2022" DropEndDate="6/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="927112" Measure="2nd Semester Project 1" Type="Test/Project/Portfolio" Date="5/24/2022" DueDate="6/1/2022" Score="42 out of 42.0000" ScoreType="Raw Score" Points="42.00 / 42.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental analysis of electric current through salty water" HasDropBox="false" DropStartDate="5/24/2022" DropEndDate="5/25/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="927109" Measure="U6 Test Modern Physics" Type="Test/Project/Portfolio" Date="5/20/2022" DueDate="5/20/2022" Score="41 out of 42.0000" ScoreType="Raw Score" Points="41.00 / 42.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on Quantum Physics and Nuclear Physics concepts" HasDropBox="false" DropStartDate="5/24/2022" DropEndDate="5/25/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="920498" Measure="U6 HW3 Nuclear Physics" Type="Homework" Date="5/3/2022" DueDate="5/10/2022" Score="7 out of 20.0000" ScoreType="Raw Score" Points="7.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of charge and mass conservation in nuclear reactions; applications of binding energy." HasDropBox="false" DropStartDate="5/13/2022" DropEndDate="5/14/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913885" Measure="U6 HW2 Atomic Models" Type="Homework" Date="4/26/2022" DueDate="5/3/2022" Score="4 out of 14.0000" ScoreType="Raw Score" Points="4.00 / 14.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of Bohr model's postulates for atomic energy levels" HasDropBox="false" DropStartDate="5/2/2022" DropEndDate="5/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="910707" Measure="U6 Lab2 Radioactive Decay" Type="Class Assignment" Date="4/27/2022" DueDate="4/29/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of exponential decay of radioactive systems" HasDropBox="false" DropStartDate="4/27/2022" DropEndDate="4/28/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="910394" Measure="U6 HW1 The Particle Model of Light" Type="Homework" Date="4/19/2022" DueDate="4/26/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of energy transfer equation for the photoelectric effect" HasDropBox="false" DropStartDate="4/26/2022" DropEndDate="4/27/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="912242" Measure="U6 Lab1 The Photoelectric Effect" Type="Class Assignment" Date="4/20/2022" DueDate="4/22/2022" Score="18 out of 20.0000" ScoreType="Raw Score" Points="18.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Graphical analysis of factors affecting photocurrent (virtual)" HasDropBox="false" DropStartDate="4/28/2022" DropEndDate="4/29/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="907956" Measure="U5 Optics Test" Type="Test/Project/Portfolio" Date="4/8/2022" DueDate="4/8/2022" Score="40 out of 42.0000" ScoreType="Raw Score" Points="40.00 / 42.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on geometric Optics and wave Optics concepts" HasDropBox="false" DropStartDate="4/22/2022" DropEndDate="4/23/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="893430" Measure="U5 HW3 Light as Wave" Type="Homework" Date="3/25/2022" DueDate="4/5/2022" Score="16 out of 16.0000" ScoreType="Raw Score" Points="16.00 / 16.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of interference and diffraction of light concepts" HasDropBox="false" DropStartDate="3/28/2022" DropEndDate="3/29/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="912205" Measure="U5 Lab4 Multiple Slit Interference" Type="Class Assignment" Date="3/30/2022" DueDate="4/1/2022" Score="17 out of 20.0000" ScoreType="Raw Score" Points="17.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of interference pattern if light shines on diffraction grating" HasDropBox="false" DropStartDate="4/28/2022" DropEndDate="4/29/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="895821" Measure="U5 Lab3 The Lens' Focal Distance" Type="Class Assignment" Date="3/23/2022" DueDate="3/25/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of image formation by converging and diverging lenses" HasDropBox="false" DropStartDate="3/30/2022" DropEndDate="3/31/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="892558" Measure="U5 Q2 Refraction of Light" Type="Class Assignment" Date="3/25/2022" DueDate="3/25/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Formative assessment on images formed by lenses" HasDropBox="false" DropStartDate="3/25/2022" DropEndDate="3/26/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885739" Measure="U5 HW2 Images in Mirrors and Lenses" Type="Homework" Date="3/15/2022" DueDate="3/22/2022" Score="24 out of 24.0000" ScoreType="Raw Score" Points="24.00 / 24.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of mirror/lens equations" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885736" Measure="U5 Lab2 Image Magnification by Curved Mirrors" Type="Class Assignment" Date="3/16/2022" DueDate="3/21/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Virtual investigation of relationship between image dimension and object's dimension and location" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885778" Measure="U5 Q1 Reflection of Light" Type="Class Assignment" Date="3/21/2022" DueDate="3/21/2022" Score="4 out of 5.0000" ScoreType="Raw Score" Points="4.00 / 5.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on reflection (law, ray diagrams) concepts" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885733" Measure="U5 HW1 Reflection and Refraction of Light" Type="Homework" Date="3/8/2022" DueDate="3/15/2022" Score="9 out of 10.0000" ScoreType="Raw Score" Points="9.00 / 10.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of laws of reflection/refraction" HasDropBox="false" DropStartDate="3/16/2022" DropEndDate="3/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="881811" Measure="U5 Lab1 The Laws of Reflection and Refraction" Type="Class Assignment" Date="3/9/2022" DueDate="3/11/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of light direction change at surface that separates two mediums" HasDropBox="false" DropStartDate="3/11/2022" DropEndDate="3/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="875634" Measure="U4 Magnetism Test" Type="Test/Project/Portfolio" Date="3/4/2022" DueDate="3/4/2022" Score="42 out of 42.0000" ScoreType="Raw Score" Points="42.00 / 42.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on magnetic effect of electric current, electromagnetic interaction, electromagnetic induction concepts" HasDropBox="false" DropStartDate="3/2/2022" DropEndDate="3/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869755" Measure="U4 Q3 Electromagnetic Induction" Type="Class Assignment" Date="2/18/2022" DueDate="2/18/2022" Score="4 out of 5.0000" ScoreType="Raw Score" Points="4.00 / 5.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on Faraday's and Lenz's Laws" HasDropBox="false" DropStartDate="2/16/2022" DropEndDate="2/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869721" Measure="U4 HW3 Electromagnetic Induction" Type="Homework" Date="2/8/2022" DueDate="2/15/2022" Score="33 out of 33.0000" ScoreType="Raw Score" Points="33.00 / 33.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of Faraday's Law and Lenz's Law" HasDropBox="false" DropStartDate="2/16/2022" DropEndDate="2/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869716" Measure="U4 Q2 Electromagnetic Interaction" Type="Class Assignment" Date="2/14/2022" DueDate="2/14/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment on magnetic field-electric current interaction concepts" HasDropBox="false" DropStartDate="2/16/2022" DropEndDate="2/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869711" Measure="U4 Lab3 Electromagnetic Force" Type="Class Assignment" Date="2/9/2022" DueDate="2/11/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of Faraday's Law" HasDropBox="false" DropStartDate="2/16/2022" DropEndDate="2/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="856873" Measure="U4 HW2 Electromagnetic Interaction " Type="Homework" Date="2/1/2022" DueDate="2/8/2022" Score="25 out of 25.0000" ScoreType="Raw Score" Points="25.00 / 25.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Assessment of electric current/moving charge and magnetic field interaction concepts" HasDropBox="false" DropStartDate="2/3/2022" DropEndDate="2/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="856872" Measure="U4 Q1 Magnetic Field, Magnetic Force" Type="Class Assignment" Date="2/7/2022" DueDate="2/7/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Formative assessment on magnetic interaction " HasDropBox="false" DropStartDate="2/3/2022" DropEndDate="2/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="856869" Measure="U4 Lab2 Magnetic Force" Type="Class Assignment" Date="2/2/2022" DueDate="2/4/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Experimental investigation of relationship between magnetic force and distance    from magnetic field's source" HasDropBox="false" DropStartDate="2/3/2022" DropEndDate="2/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="856864" Measure="U4 HW1 Magnetic Field" Type="Homework" Date="1/26/2022" DueDate="2/1/2022" Score="13 out of 13.0000" ScoreType="Raw Score" Points="13.00 / 13.0000" Notes="" TeacherID="31982" StudentID="22789" MeasureDescription="Applications of magnetic effect of electric current and fields superposition" HasDropBox="false" DropStartDate="2/3/2022" DropEndDate="2/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="true" Period="3" Title="Japanese 4 (JA_701.0)" Room="2101" Staff="Conor Corum" StaffEMail="corumc@bsd405.org" StaffGU="0B1ECE49-2F3D-4821-80FF-0959E4E2C77D" HighlightPercentageCutOffForProgressBar="50">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="100">
+                         <StandardViews />
+                         <GradeCalculationSummary>
+                              <AssignmentGradeCalc Type="Formative assessments*" Weight="25%" Points="260.00" PointsPossible="260.00" WeightedPct="25.00%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Summative Assessments*" Weight="75%" Points="40.00" PointsPossible="40.00" WeightedPct="75.00%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="TOTAL" Weight="100%" Points="300.00" PointsPossible="300.00" WeightedPct="100.00%" CalculatedMark="A" />
+                         </GradeCalculationSummary>
+                         <Assignments>
+                              <Assignment GradebookID="924758" Measure="Writing Kanji Practive #2" Type="Formative assessments*" Date="5/9/2022" DueDate="5/13/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/19/2022" DropEndDate="5/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="924757" Measure="Picture Verbs #2" Type="Formative assessments*" Date="5/9/2022" DueDate="5/13/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/19/2022" DropEndDate="5/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="924756" Measure="TPR #2 Last 6 Verbs" Type="Formative assessments*" Date="5/9/2022" DueDate="5/13/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/19/2022" DropEndDate="5/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="918156" Measure="Kanji Practice Worksheet 2" Type="Formative assessments*" Date="5/2/2022" DueDate="5/6/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/9/2022" DropEndDate="5/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="918158" Measure="Vocabulary Pictures TPR 2" Type="Summative Assessments*" Date="4/25/2022" DueDate="4/29/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/9/2022" DropEndDate="5/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="918157" Measure="Verb TPR 2" Type="Formative assessments*" Date="4/18/2022" DueDate="4/22/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/9/2022" DropEndDate="5/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="918151" Measure="Kanji Practice Worksheet 1" Type="Formative assessments*" Date="4/4/2022" DueDate="4/8/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/9/2022" DropEndDate="5/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="903815" Measure="AIJ1 Unit 12 - Kanji" Type="Formative assessments*" Date="4/7/2022" DueDate="4/7/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/16/2022" DropEndDate="4/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="917704" Measure="Poster Project- My Manifestation" Type="Summative Assessments*" Date="3/21/2022" DueDate="4/1/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/7/2022" DropEndDate="5/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="903811" Measure="AIJ1 Unit 11 - Kanji" Type="Formative assessments*" Date="4/1/2022" DueDate="4/1/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/16/2022" DropEndDate="4/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="903810" Measure="AIJ1 Unit 10 - Kanji" Type="Formative assessments*" Date="3/15/2022" DueDate="3/15/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/16/2022" DropEndDate="4/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="903807" Measure="AIJ1 Unit 9 - Kanji" Type="Formative assessments*" Date="3/14/2022" DueDate="3/14/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/16/2022" DropEndDate="4/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="901515" Measure="AIJ1 Unit 8 - Kanji" Type="Formative assessments*" Date="3/1/2022" DueDate="3/1/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/7/2022" DropEndDate="4/8/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="901514" Measure="AIJ1 Unit 7 - Kanji" Type="Formative assessments*" Date="2/28/2022" DueDate="2/28/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/7/2022" DropEndDate="4/8/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="891844" Measure="AIJ1 Unit 6 Kanji" Type="Formative assessments*" Date="2/18/2022" DueDate="2/18/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/25/2022" DropEndDate="3/26/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869584" Measure="ICA #1 St. Valentine's Day in Japan" Type="Formative assessments*" Date="2/14/2022" DueDate="2/14/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="Learned unique culture in Japan on St. Valentine's day." HasDropBox="false" DropStartDate="2/16/2022" DropEndDate="2/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="855675" Measure="AIJ1 Unit 5 - Kanji" Type="Formative assessments*" Date="2/7/2022" DueDate="2/7/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/2/2022" DropEndDate="2/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="857602" Measure="Setsubun Worksheet" Type="Formative assessments*" Date="2/3/2022" DueDate="2/3/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="Learned Japanese annual event to welcome spring." HasDropBox="false" DropStartDate="2/3/2022" DropEndDate="2/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="855674" Measure="AIJ1 Unit 4 - Kanji " Type="Formative assessments*" Date="2/1/2022" DueDate="2/1/2022" Score="20 out of 20.0000" ScoreType="Raw Score" Points="20.00 / 20.0000" Notes="" TeacherID="32012" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/2/2022" DropEndDate="2/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="false" Period="4" Title="AP US Government (SSA701.0)" Room="1114" Staff="William Linser" StaffEMail="LinserW@bsd405.org" StaffGU="D2D9F26D-7E43-407E-A6D2-6EE5BC581AFF" HighlightPercentageCutOffForProgressBar="50">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="96.9">
+                         <StandardViews />
+                         <GradeCalculationSummary>
+                              <AssignmentGradeCalc Type="Daily Assignments" Weight="15%" Points="45.00" PointsPossible="50.00" WeightedPct="13.50%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Tests" Weight="60%" Points="146.00" PointsPossible="150.00" WeightedPct="58.40%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Cycle Job Performance " Weight="25%" Points="40.00" PointsPossible="40.00" WeightedPct="25.00%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="TOTAL" Weight="100%" Points="231.00" PointsPossible="240.00" WeightedPct="96.90%" CalculatedMark="A" />
+                         </GradeCalculationSummary>
+                         <Assignments>
+                              <Assignment GradebookID="933199" Measure="Task 4 - GIA" Type="Cycle Job Performance " Date="6/8/2022" DueDate="6/8/2022" Score="Not Graded" ScoreType="Raw Score" Points="9.0000 Points Possible" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/3/2022" DropEndDate="6/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="925634" Measure="GIA-Task 3" Type="Cycle Job Performance " Date="5/20/2022" DueDate="5/20/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/20/2022" DropEndDate="5/21/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="917718" Measure="GIA Task 2" Type="Cycle Job Performance " Date="5/9/2022" DueDate="5/9/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/8/2022" DropEndDate="5/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="915988" Measure="May SGAP" Type="Daily Assignments" Date="5/6/2022" DueDate="5/6/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/4/2022" DropEndDate="5/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913243" Measure="Unit 5 EXam" Type="Tests" Date="4/27/2022" DueDate="4/27/2022" Score="47 out of 50.0000" ScoreType="Raw Score" Points="47.00 / 50.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/29/2022" DropEndDate="4/30/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913455" Measure="GIA Task # 1" Type="Cycle Job Performance " Date="4/25/2022" DueDate="4/25/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/1/2022" DropEndDate="5/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="909604" Measure="Unit 5 Progress Check" Type="Daily Assignments" Date="4/25/2022" DueDate="4/25/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/26/2022" DropEndDate="4/27/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="902330" Measure="April SGAP" Type="Daily Assignments" Date="4/8/2022" DueDate="4/8/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/8/2022" DropEndDate="4/9/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="896062" Measure="Unit IV Exam" Type="Tests" Date="3/30/2022" DueDate="3/30/2022" Score="53 out of 50.0000" ScoreType="Raw Score" Points="53.00 / 50.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/31/2022" DropEndDate="4/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913452" Measure="SCOTUS Task # 3" Type="Cycle Job Performance " Date="3/28/2022" DueDate="3/28/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/1/2022" DropEndDate="5/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="883482" Measure="Unit 4 Progress Check MCQ – Due Sun., 3.27. by 11.45pm" Type="Daily Assignments" Date="3/27/2022" DueDate="3/27/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/14/2022" DropEndDate="3/15/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="913524" Measure="Mock Units 1-3 FRQ Exam" Type="Assignment" Date="3/22/2022" DueDate="3/22/2022" Score="Not Graded" ScoreType="Raw Score" Points="5.0000 Points Possible" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/1/2022" DropEndDate="5/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="901034" Measure="SCOTUS Task # 2" Type="Cycle Job Performance " Date="3/15/2022" DueDate="3/15/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/6/2022" DropEndDate="4/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="881816" Measure="Unit III Exam" Type="Tests" Date="3/9/2022" DueDate="3/9/2022" Score="46 out of 50.0000" ScoreType="Raw Score" Points="46.00 / 50.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/11/2022" DropEndDate="3/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="853877" Measure="Unit 3 MCQ Progress Check" Type="Daily Assignments" Date="3/6/2022" DueDate="3/6/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="1/30/2022" DropEndDate="1/31/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="877368" Measure="March SGAP" Type="Daily Assignments" Date="3/4/2022" DueDate="3/4/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/5/2022" DropEndDate="3/6/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="888127" Measure="SCOTUS Task One" Type="Cycle Job Performance " Date="3/4/2022" DueDate="3/4/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="888036" Measure="Task 4-Cmte Work" Type="Cycle Job Performance " Date="2/15/2022" DueDate="2/15/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/20/2022" DropEndDate="3/21/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="853874" Measure="Feb SGAP" Type="Daily Assignments" Date="2/4/2022" DueDate="2/4/2022" Score="0 out of 5.0000" ScoreType="Raw Score" Points="0.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="1/30/2022" DropEndDate="1/31/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="857757" Measure="Task 3 - Draft a Bill" Type="Cycle Job Performance " Date="1/31/2022" DueDate="1/31/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31992" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/4/2022" DropEndDate="2/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="false" Period="5" Title="Spec Topics Comp Sci (CT_605.0)" Room="0104" Staff="Christopher George" StaffEMail="georgec@bsd405.org" StaffGU="2BF8A2EA-0435-44AD-919F-104BAF15C41D" HighlightPercentageCutOffForProgressBar="75">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="93.4">
+                         <StandardViews />
+                         <GradeCalculationSummary />
+                         <Assignments>
+                              <Assignment GradebookID="904303" Measure="FinalProj" Type="Class/HWork" Date="6/10/2022" DueDate="6/10/2022" Score="87 out of 100.0000" ScoreType="Raw Score" Points="87.00 / 100.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904296" Measure="Retro0603" Type="Class/HWork" Date="6/3/2022" DueDate="6/3/2022" Score="Not Graded" ScoreType="Raw Score" Points="15.0000 Points Possible" Notes="Excused " TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904294" Measure="Retro0527" Type="Class/HWork" Date="5/27/2022" DueDate="5/27/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904287" Measure="Retro0520" Type="Class/HWork" Date="5/20/2022" DueDate="5/20/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904285" Measure="Retro0513" Type="Class/HWork" Date="5/13/2022" DueDate="5/13/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904283" Measure="Retro0506" Type="Class/HWork" Date="5/6/2022" DueDate="5/6/2022" Score="Not Graded" ScoreType="Raw Score" Points="15.0000 Points Possible" Notes="Excused " TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904276" Measure="Retro0429" Type="Class/HWork" Date="4/29/2022" DueDate="4/29/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904274" Measure="Retro0422" Type="Class/HWork" Date="4/22/2022" DueDate="4/22/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904457" Measure="MakeUp-Retro" Type="Class/HWork" Date="4/18/2022" DueDate="4/18/2022" Score="3 out of 12.0000" ScoreType="Raw Score" Points="3.00 / 0.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="898314" Measure="Retro0408" Type="Class/HWork" Date="4/8/2022" DueDate="4/8/2022" Score="Not Graded" ScoreType="Raw Score" Points="15.0000 Points Possible" Notes="Excused " TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/4/2022" DropEndDate="4/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="893716" Measure="Retro0401" Type="Class/HWork" Date="4/1/2022" DueDate="4/1/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/28/2022" DropEndDate="3/29/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="891504" Measure="Chat0325" Type="Class/HWork" Date="3/25/2022" DueDate="3/25/2022" Score="2 out of 2.0000" ScoreType="Raw Score" Points="2.00 / 2.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/24/2022" DropEndDate="3/25/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="893247" Measure="Retro0325" Type="Class/HWork" Date="3/25/2022" DueDate="3/25/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/28/2022" DropEndDate="3/29/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="874836" Measure="Retro0318" Type="Class/HWork" Date="3/18/2022" DueDate="3/18/2022" Score="17 out of 15.0000" ScoreType="Raw Score" Points="17.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/1/2022" DropEndDate="3/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="876080" Measure="Chat0311" Type="Class/HWork" Date="3/11/2022" DueDate="3/11/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/3/2022" DropEndDate="3/4/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="874834" Measure="Retro0311" Type="Class/HWork" Date="3/11/2022" DueDate="3/11/2022" Score="13 out of 15.0000" ScoreType="Raw Score" Points="13.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/1/2022" DropEndDate="3/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="864820" Measure="Retro0304" Type="Class/HWork" Date="3/4/2022" DueDate="3/4/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/11/2022" DropEndDate="2/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="864818" Measure="Retro0218" Type="Class/HWork" Date="2/18/2022" DueDate="2/18/2022" Score="12 out of 15.0000" ScoreType="Raw Score" Points="12.00 / 15.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/11/2022" DropEndDate="2/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="864816" Measure="1Pager-Update" Type="Class/HWork" Date="2/15/2022" DueDate="2/15/2022" Score="0 out of 6.0000" ScoreType="Raw Score" Points="0.00 / 6.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/11/2022" DropEndDate="2/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="864812" Measure="30Sec Video" Type="Participation" Date="2/14/2022" DueDate="2/14/2022" Score="0 out of 1.0000" ScoreType="Raw Score" Points="0.00 / 0.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/11/2022" DropEndDate="2/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="864814" Measure="1Pager" Type="Class/HWork" Date="2/8/2022" DueDate="2/8/2022" Score="6 out of 6.0000" ScoreType="Raw Score" Points="6.00 / 6.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/11/2022" DropEndDate="2/12/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="858111" Measure="Sem2 Review" Type="Class/HWork" Date="2/4/2022" DueDate="2/4/2022" Score="6 out of 6.0000" ScoreType="Raw Score" Points="6.00 / 6.0000" Notes="" TeacherID="32014" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/4/2022" DropEndDate="2/5/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="false" Period="6" Title="AP Mic/Mac Econ (CTA470.0)" Room="1130" Staff="Tamara Riggers" StaffEMail="Riggerst@bsd405.org" StaffGU="151AC43F-489E-4C79-8D7D-D25B8F6524AD" HighlightPercentageCutOffForProgressBar="50">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="98.8">
+                         <StandardViews />
+                         <GradeCalculationSummary />
+                         <Assignments>
+                              <Assignment GradebookID="939382" Measure="Supply and Demand Final" Type="Projects" Date="6/14/2022" DueDate="6/20/2022" Score="Not Due" ScoreType="Raw Score" Points="20.0000 Points Possible" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/14/2022" DropEndDate="6/15/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="934009" Measure="Video Evaluations" Type="Assignments" Date="6/7/2022" DueDate="6/8/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/6/2022" DropEndDate="6/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="934004" Measure="Econ Music Video" Type="Projects" Date="5/16/2022" DueDate="6/7/2022" Score="36 out of 40.0000" ScoreType="Raw Score" Points="36.00 / 40.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="6/6/2022" DropEndDate="6/7/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="929163" Measure="Econ Song Lyrics/Video Script" Type="Assignments" Date="5/16/2022" DueDate="5/27/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/27/2022" DropEndDate="5/28/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="929154" Measure="It's a Wonderful Life" Type="Assignments" Date="5/17/2022" DueDate="5/26/2022" Score="7 out of 10.0000" ScoreType="Raw Score" Points="7.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/27/2022" DropEndDate="5/28/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="925948" Measure="Freakonomics" Type="Assignments" Date="5/10/2022" DueDate="5/20/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/22/2022" DropEndDate="5/23/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="922605" Measure="Video Project Proposal" Type="Assignments" Date="5/20/2022" DueDate="5/20/2022" Score="5 out of 5.0000" ScoreType="Raw Score" Points="5.00 / 5.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/16/2022" DropEndDate="5/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="922598" Measure="Units 4/5 Test Corrections" Type="Assignments" Date="5/9/2022" DueDate="5/17/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/16/2022" DropEndDate="5/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="922601" Measure="Mock Macro Exam" Type="Tests and Quizzes" Date="4/29/2022" DueDate="5/10/2022" Score="62 out of 50.0000" ScoreType="Raw Score" Points="62.00 / 50.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/16/2022" DropEndDate="5/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904786" Measure="Unit 6 Progress Check - MC" Type="Assignments" Date="4/21/2022" DueDate="4/28/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="922595" Measure="Units 4/5 Test" Type="Tests and Quizzes" Date="4/25/2022" DueDate="4/25/2022" Score="38 out of 42.0000" ScoreType="Raw Score" Points="38.00 / 42.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/16/2022" DropEndDate="5/17/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="904783" Measure="Unit 5 Progress Check - MC" Type="Assignments" Date="4/5/2022" DueDate="4/18/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/18/2022" DropEndDate="4/19/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="896842" Measure="Unit 4 Progress Check - MC" Type="Assignments" Date="3/28/2022" DueDate="4/1/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/1/2022" DropEndDate="4/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="896834" Measure="Unit 4 FRQs - Nearpod" Type="Assignments" Date="3/30/2022" DueDate="3/30/2022" Score="15 out of 15.0000" ScoreType="Raw Score" Points="15.00 / 15.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/1/2022" DropEndDate="4/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="891379" Measure="Unit 3 Test Corrections" Type="Assignments" Date="3/23/2022" DueDate="3/25/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/24/2022" DropEndDate="3/25/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="891376" Measure="Unit 3 Test " Type="Tests and Quizzes" Date="3/15/2022" DueDate="3/15/2022" Score="31 out of 32.0000" ScoreType="Raw Score" Points="31.00 / 32.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/24/2022" DropEndDate="3/25/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="878943" Measure="Unit 3 Progress Check" Type="Assignments" Date="3/7/2022" DueDate="3/14/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/7/2022" DropEndDate="3/8/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="875756" Measure="Unit 2 Test Corrections" Type="Assignments" Date="3/2/2022" DueDate="3/7/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/2/2022" DropEndDate="3/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="875048" Measure="Unit 2 Test - Economic Indicators" Type="Tests and Quizzes" Date="2/16/2022" DueDate="2/16/2022" Score="36 out of 40.0000" ScoreType="Raw Score" Points="36.00 / 40.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/1/2022" DropEndDate="3/2/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="866339" Measure="Macro Progress Check Unit 2" Type="Assignments" Date="2/14/2022" DueDate="2/15/2022" Score="10 out of 10.0000" ScoreType="Raw Score" Points="10.00 / 10.0000" Notes="" TeacherID="31981" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/14/2022" DropEndDate="2/15/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+          <Course UsesRichContent="false" Period="7" Title="Photography 2 (CT_512.3)" Room="1127" Staff="Debby Nixon" StaffEMail="NixonD@bsd405.org" StaffGU="A424092B-A1CD-416A-A2B5-720E4B65F8D6" HighlightPercentageCutOffForProgressBar="69">
+               <Marks>
+                    <Mark MarkName="S2 Final" CalculatedScoreString="A" CalculatedScoreRaw="3.8">
+                         <StandardViews />
+                         <GradeCalculationSummary>
+                              <AssignmentGradeCalc Type="Assessments" Weight="80%" Points="17.50" PointsPossible="18.00" WeightedPct="77.77%" CalculatedMark="A" />
+                              <AssignmentGradeCalc Type="Practice" Weight="20%" Points="15.00" PointsPossible="17.00" WeightedPct="17.64%" CalculatedMark="A" />
+                         </GradeCalculationSummary>
+                         <Assignments>
+                              <Assignment GradebookID="888581" Measure="Adult Portfolio Review" Type="Assignment" Date="3/21/2022" DueDate="6/14/2022" Score="1 out of 1.0000" ScoreType="Raw Score" Points="1.00 / 1.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;Choose an adult to review your portfolio with you.&amp;amp;nbsp; See attached for questions to discuss.&lt;/div&gt;" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="890035" Measure="Portfolio Final Project" Type="Assignment" Date="3/22/2022" DueDate="6/13/2022" Score="Not Graded" ScoreType="Raw Score" Points="4.0000 Points Possible" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;A visual portfolio showcasing your learning in Photo 2.&amp;amp;nbsp; See attached.&lt;/div&gt;" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="926617" Measure="Final Shooting Project Optimized" Type="Assignment" Date="5/23/2022" DueDate="6/3/2022" Score="2.5 out of 4.0000" ScoreType="Raw Score" Points="2.50 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;&lt;ul&gt;&lt;li&gt;Choose one of the following projects.&amp;amp;nbsp; SHOOT due Tues., May 31&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: inherit; font-family: inherit; font-size: inherit;&quot;&gt;ANIMALS &amp;amp; KIDS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: inherit; font-family: inherit; font-size: inherit;&quot;&gt;Shadows&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: inherit; font-family: inherit; font-size: inherit;&quot;&gt;Silhouettes&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Optimized due Fri., June 3&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="926656" Measure="Word Photos" Type="Assignment" Date="5/23/2022" DueDate="5/27/2022" Score="0 out of 2.0000" ScoreType="Raw Score" Points="0.00 / 2.0000" Notes="no photos, try again" TeacherID="31989" StudentID="22789" MeasureDescription="&lt;p&gt;Pick some of your fav photos and make INTO words.&amp;amp;nbsp; Submit your best 2.&lt;/p&gt;&lt;p&gt;Create a &quot;word image&quot; that tells a story.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;HOW to make a Photo into a WORD &lt;/u&gt;&lt;/strong&gt;You can choose a photo you’ve already shot (or shoot new ones) to try this Photoshop technique.&amp;amp;nbsp;&amp;amp;nbsp; Watch for photo placement INSIDE the word, remembering composition.&amp;amp;nbsp; Use a thicker font to be able to see the photo.&lt;/p&gt;&lt;p&gt;&amp;amp;nbsp;&lt;/p&gt;&lt;p&gt;This web link explains how to place an Image in Text in Photoshop. &lt;a target=&quot;_blank&quot; href=&quot;http://www.photoshopessentials.com/photoshop-text/text-effects/image-in-text-photoshop-cs6/&quot;&gt;http://www.photoshopessentials.com/photoshop-text/text-effects/image-in-text-photoshop-cs6/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;If you already know how to do this, take it to the next level.&amp;amp;nbsp; Change the background also or add another dimension/twist of your own.&amp;amp;nbsp; Impress us with your creativity!!&amp;amp;nbsp; Feel free to go online and seek inspiration.&lt;/p&gt;&lt;p&gt;Submit on Teams by next week.&lt;/p&gt;&lt;p&gt;&amp;amp;nbsp;&lt;/p&gt;&lt;p&gt;Label them:&amp;amp;nbsp;&lt;/p&gt;&lt;p&gt;periodlastnamefirstnameWORDimage1&lt;/p&gt;&lt;p&gt;periodlastnamefirstnameWORDimage2&lt;/p&gt;&lt;p&gt;&amp;amp;nbsp;&lt;/p&gt;&lt;p&gt;Write a short narrative self-evaluation of the final projects, including composition and technical skills. Please include ANYTHING you did differently than the directions….so others can try the same technique.&amp;amp;nbsp;&amp;amp;nbsp; ??&lt;/p&gt;" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="924932" Measure="Resume" Type="Assignment" Date="5/19/2022" DueDate="5/20/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;&lt;ol&gt;&lt;li&gt;Create a resume&amp;amp;nbsp;&lt;/li&gt;&lt;li&gt;Upload to Naviance&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;Attach your resume to this assignment in TEAMS&lt;/div&gt;&lt;div style=&quot;font-family: inherit; font-size: inherit; color: inherit;&quot;&gt;Also attach a screen shot of your resume uploaded to Naviance&lt;/div&gt;" HasDropBox="false" DropStartDate="1/1/1900" DropEndDate="1/1/1900">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="915140" Measure="BSD ART SHOW entries" Type="Assessments" Date="4/28/2022" DueDate="4/29/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="Assessment:  Composition, Creativity, Technical Quality, Originality" HasDropBox="false" DropStartDate="5/3/2022" DropEndDate="5/3/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="905989" Measure="A Unique Look Optimized" Type="Practice" Date="4/20/2022" DueDate="4/21/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="effective technique w cars" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="5/10/2022" DropEndDate="5/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="900633" Measure="Closeups " Type="Practice" Date="4/6/2022" DueDate="4/8/2022" Score="1.5 out of 2.0000" ScoreType="Raw Score" Points="1.50 / 2.0000" Notes="#1 very sharp focus, other 2- work on" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/20/2022" DropEndDate="4/20/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="895616" Measure="Abstracts in Nature" Type="Assessments" Date="3/30/2022" DueDate="4/5/2022" Score="2 out of 2.0000" ScoreType="Raw Score" Points="2.00 / 2.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/20/2022" DropEndDate="4/20/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="885932" Measure="&quot;A Day in the Life&quot;" Type="Practice" Date="3/16/2022" DueDate="3/24/2022" Score="1 out of 2.0000" ScoreType="Raw Score" Points="1.00 / 2.0000" Notes="cannot see what's going on...try again" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/31/2022" DropEndDate="3/31/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="890786" Measure="Shapes" Type="Practice" Date="3/23/2022" DueDate="3/24/2022" Score="1 out of 1.0000" ScoreType="Raw Score" Points="1.00 / 1.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/1/2022" DropEndDate="4/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="880430" Measure="Famous Photographer" Type="Assessments" Date="3/9/2022" DueDate="3/17/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="4/1/2022" DropEndDate="4/1/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="881500" Measure="Food Photography Optimized" Type="Practice" Date="3/8/2022" DueDate="3/8/2022" Score="3.5 out of 4.0000" ScoreType="Raw Score" Points="3.50 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/14/2022" DropEndDate="3/14/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="869141" Measure="Student Choice Optimized (Edited)" Type="Practice" Date="2/16/2022" DueDate="3/3/2022" Score="2 out of 2.0000" ScoreType="Raw Score" Points="2.00 / 2.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/10/2022" DropEndDate="3/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="865209" Measure="Color Theory:  RED" Type="Assessments" Date="2/11/2022" DueDate="2/18/2022" Score="3.5 out of 4.0000" ScoreType="Raw Score" Points="3.50 / 4.0000" Notes="see teams" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/10/2022" DropEndDate="3/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="860566" Measure="Me, Myself &amp;amp; I" Type="Practice" Date="2/7/2022" DueDate="2/9/2022" Score="2 out of 2.0000" ScoreType="Raw Score" Points="2.00 / 2.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/10/2022" DropEndDate="3/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="858231" Measure="Syllabus Signed " Type="Not Graded" Date="2/4/2022" DueDate="2/7/2022" Score="0" ScoreType="Raw Score" Points="0.00 / 0.0000" Notes="Missing (Zero) " TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="3/10/2022" DropEndDate="3/10/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                              <Assignment GradebookID="855991" Measure="Perspective Photos" Type="Assessments" Date="1/31/2022" DueDate="2/3/2022" Score="4 out of 4.0000" ScoreType="Raw Score" Points="4.00 / 4.0000" Notes="" TeacherID="31989" StudentID="22789" MeasureDescription="" HasDropBox="false" DropStartDate="2/8/2022" DropEndDate="2/8/2022">
+                                   <Resources />
+                                   <Standards />
+                              </Assignment>
+                         </Assignments>
+                    </Mark>
+               </Marks>
+          </Course>
+     </Courses>
+</Gradebook>
