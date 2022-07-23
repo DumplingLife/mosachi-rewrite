@@ -41,8 +41,10 @@ export default function GradesPages(props) {
                             window._mNHandle.queue.push(function (){
                                 window._mNDetails.loadTag("452247345", "160x600", "452247345");
                             });
+                        }
+                        catch (error) {
+                            console.log(error);
                         }`}
-                        catch (error) {}
                     </script>
                 </div>
             </>
