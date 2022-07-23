@@ -40,18 +40,18 @@ export default function GradesPages(props) {
                 <Routes>
                     <Route path='/' element={<PeriodsTable gradebook={gradebook.data} />} />
                     <Route path='/:id' element={<PeriodWrapper initialGradebook={gradebook.data} />} />
-                    {/* media.net ads */}
-                    <div id="452247345">
-                        <script type="text/javascript">
-                            {`try {
-                                window._mNHandle.queue.push(function (){
-                                    window._mNDetails.loadTag("452247345", "160x600", "452247345");
-                                });
-                            }`}
-                            catch (error) {}
-                        </script>
-                    </div>
                 </Routes>
+                {/* media.net ads */}
+                <div id="452247345">
+                    <script type="text/javascript">
+                        {`try {
+                            window._mNHandle.queue.push(function (){
+                                window._mNDetails.loadTag("452247345", "160x600", "452247345");
+                            });
+                        }`}
+                        catch (error) {}
+                    </script>
+                </div>
             </>
         );
     }
