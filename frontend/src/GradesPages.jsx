@@ -29,13 +29,6 @@ export default function GradesPages(props) {
             <>
                 <Helmet>
                     <title>Mosachi - The Smart Gradebook</title>
-                    {/* media.net ads */}
-                    <script type="text/javascript">
-                        {`window._mNHandle = window._mNHandle || {};
-                        window._mNHandle.queue = window._mNHandle.queue || [];
-                        medianet_versionId = "3121199";`}
-                    </script>
-                    <script src="https://contextual.media.net/dmedianet.js?cid=8CU2150T1" async="async"></script>
                 </Helmet>
                 <Routes>
                     <Route path='/' element={<PeriodsTable gradebook={gradebook.data} />} />
