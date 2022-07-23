@@ -38,6 +38,7 @@ export default function GradesPages(props) {
                 <div id="452247345">
                     <script type="text/javascript">
                         {`try {
+                            console.log(1);
                             window._mNHandle.queue.push(function (){
                                 window._mNDetails.loadTag("452247345", "160x600", "452247345");
                             });
