@@ -29,12 +29,28 @@ export default function GradesPages(props) {
             <>
                 <Helmet>
                     <title>Mosachi - The Smart Gradebook</title>
-                    {/* adsense */}
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1524304756947795" crossorigin="anonymous"></script>
+                    {/* media.net ads */}
+                    <script type="text/javascript">
+                        {`window._mNHandle = window._mNHandle || {};
+                        window._mNHandle.queue = window._mNHandle.queue || [];
+                        medianet_versionId = "3121199";`}
+                    </script>
+                    <script src="https://contextual.media.net/dmedianet.js?cid=8CU2150T1" async="async"></script>
                 </Helmet>
                 <Routes>
                     <Route path='/' element={<PeriodsTable gradebook={gradebook.data} />} />
                     <Route path='/:id' element={<PeriodWrapper initialGradebook={gradebook.data} />} />
+                    {/* media.net ads */}
+                    <div id="452247345">
+                        <script type="text/javascript">
+                            {`try {
+                                window._mNHandle.queue.push(function (){
+                                    window._mNDetails.loadTag("452247345", "160x600", "452247345");
+                                });
+                            }`}
+                            catch (error) {}
+                        </script>
+                    </div>
                 </Routes>
             </>
         );
