@@ -2,11 +2,11 @@ const axios = require('axios');
 const parseString = require('xml2js').parseString;
 
 const QUARTERS = {
-    'wa-bsd405-psv': 3,
-    'wa-nor-psv': 3,
-    'ca-egusd-psv': 7,
+    'wa-bsd405-psv': 1, //3 for S2
+    'wa-nor-psv': 1, //3 for S2
+    'ca-egusd-psv': 3, //7 for S2
 }
-const DEFAULT_QUARTER = 3;
+const DEFAULT_QUARTER = 1;
 //value of pointsEarned if assignment is not graded. Make sure this matches with front-end calculation/display code
 const NOT_GRADED_STR = 'Not graded';
 //name of single category if there are no categories
