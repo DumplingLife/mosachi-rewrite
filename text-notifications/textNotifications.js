@@ -5,6 +5,9 @@ const User = require('../db/User.js');
 
 const nodemailer = require('nodemailer');
 
+//if # updates exceeds this, don't send any text
+const MAX_ASSIGNMENT_UPDATES = 5;
+
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -27,6 +30,9 @@ async function createUser(username, password, urlSubdomain, mmsEmail, gradebookO
         console.error(err);
         return null;
     }
+
+    //delete old user, in case they sign up again
+    await deleteUser(username, urlSubdomain);
     
     let user = new User({
         username: username,
@@ -38,8 +44,11 @@ async function createUser(username, password, urlSubdomain, mmsEmail, gradebookO
     await user.save();
     return user;
 }
-async function deleteUser(username) {
-
+//username + urlSubdomain uniquely identifies someone, username alone is not enough
+async function deleteUser(username, urlSubdomain) {
+    let res = await User.deleteMany({username: username, urlSubdomain: urlSubdomain});
+    console.log(`deleted ${res.deletedCount} users`);
+    return res.deletedCount;
 }
 
 //send all notifications and update users to match new gradebook
@@ -47,11 +56,15 @@ async function sendAllNotifications() {
     await User.find({}).then((users) => {
         let promises = [];
         for(let user of users) {
-            promises.push(getNotificationAndUpdateUser(user));
+            //if error, continue with rest of users
+            try {
+                promises.push(getNotificationAndUpdateUser(user));
+            } catch(error) {
+                console.error(error);
+            }
         }
         return Promise.allSettled(promises);
     });
-    return;
 }
 async function getNotificationAndUpdateUser(user) {
     let password = encrypter.decrypt(user.password);
@@ -61,6 +74,7 @@ async function getNotificationAndUpdateUser(user) {
 
     let assignmentUpdates = diffGradebooks.diffGradebooks(oldGradebook, currGradebook);
     if(assignmentUpdates.length == 0) return;
+    else if(assignmentUpdates >= MAX_ASSIGNMENT_UPDATES) return;
     else {
         //generate text message
         let text = '';
@@ -77,23 +91,27 @@ async function getNotificationAndUpdateUser(user) {
             }
         }
         text += assignmentUpdateTexts.join('\n');
-        console.log(`sending notification to ${user.mmsEmail}`);
-        console.log(text);
 
         let promises = [];
-        promises.push(transporter.sendMail({
-            from: 'mosachiofficial@gmail.com',
-            to: user.mmsEmail,
-            text: text,
-        }, (err) => {
-            if(err) console.error(err);
-        }));
+        promises.push(sendText(user.mmsEmail, text));
 
         //update in mongodb
         user.gradebook = JSON.stringify(currGradebook);
         promises.push(user.save());
         await Promise.allSettled(promises);
-        return;
+    }
+}
+async function sendText(mmsEmail, text) {
+    console.log(`sending notification to ${mmsEmail}:`);
+    console.log(text);
+    try {
+        await transporter.sendMail({
+            from: 'mosachiofficial@gmail.com',
+            to: mmsEmail,
+            text: text,
+        });
+    } catch(err) {
+        console.log(err);
     }
 }
 
@@ -101,4 +119,5 @@ module.exports = {
     createUser: createUser,
     deleteUser: deleteUser,
     sendAllNotifications: sendAllNotifications,
+    sendText: sendText,
 };
