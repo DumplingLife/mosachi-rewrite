@@ -22,11 +22,7 @@ module.exports = {
             presets: ['@babel/preset-env', '@babel/preset-react']
           }
         }
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
+      }
     ]
   },
   target: 'web',

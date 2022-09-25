@@ -1,3 +1,8 @@
+.periods-list-page-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 .logout-button-wrapper {
     position: fixed;
     top: 20px;
@@ -8,16 +13,10 @@
     padding: 0.5rem 1rem;
 }
 
-.periods-list-page-container {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .title-wrapper {
     margin-bottom: 3rem;
+    max-width: 100vw;
+    text-align: center;
 }
 .title {
     font-size: 4rem;
@@ -31,6 +30,7 @@
     padding: 0;
     border: 1px solid #bbb;
     border-radius: 1rem;
+    margin: 0 auto;
 }
 .period-row {
     display: flex;
@@ -75,26 +75,4 @@
 }
 .period-row-details-right-arrow {
     font-size: 1.25rem;
-}
-
-.tn-modal-link {
-    cursor: pointer;
-    margin: 8px 0 0 0;
-}
-.tn-modal-title {
-    font-size: 1.25rem;
-}
-.tn-screenshot-container {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-}
-.tn-screenshot {
-    width: 100%;
-}
-.tn-modal1-button-container {
-    margin-top: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
