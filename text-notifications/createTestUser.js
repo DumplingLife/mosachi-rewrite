@@ -15,7 +15,7 @@ synergy.getGradebook(username, password, urlSubdomain).then((gradebook) => {
     if(gradebook == synergy.INVALID_CREDENTIALS_STR) console.log('invalid credentials');
     else {
         //for testing, change 1 assignment
-        gradebook[1].assignments[2].pointsEarned = 4;
+        gradebook[0].assignments[2].pointsEarned = 4;
     
         textNotifications.createUser(username, password, urlSubdomain, mmsEmail, gradebook).then(() => {
             console.log('done');

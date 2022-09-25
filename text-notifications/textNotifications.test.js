@@ -36,7 +36,7 @@ test('text notifications: create user and send notifications', async () => {
     }
     else {
         //for testing, change 1 assignment
-        gradebook[0].assignments[6].pointsEarned = 4;
+        gradebook[0].assignments[2].pointsEarned = 4;
 
         let user = await textNotifications.createUser(username, password, urlSubdomain, mmsEmail, gradebook);
         expect(user.username).toBe(username);
@@ -46,6 +46,7 @@ test('text notifications: create user and send notifications', async () => {
         expect(user.gradebook).toBe(JSON.stringify(gradebook));
         expect(await User.countDocuments()).toBe(1);
 
+        sendMailMock.mockClear();
         await textNotifications.sendAllNotifications();
         expect(sendMailMock.mock.calls.length).toBe(1);
         expect(sendMailMock.mock.calls[0][0]).toEqual({
@@ -53,8 +54,5 @@ test('text notifications: create user and send notifications', async () => {
             to: mmsEmail,
             text: 'Score changed: FRQ poetry #2 thesis',
         });
-
-        await textNotifications.deleteUser(process.env.TEST_USERNAME, process.env.TEST_URLSUBDOMAIN);
-        expect(await User.countDocuments()).toBe(0);
     }
 });
