@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import { calculateGradeDisplay } from './gradeCalc.js';
+import TextNotificationsSignUp from './text-notifications/TextNotificationsSignUp.jsx';
+import TextNotificationsDelete from './text-notifications/TextNotificationsDelete.jsx';
 
 export default function PeriodsTable(props) {
     let periodRows = [];
@@ -22,9 +24,10 @@ export default function PeriodsTable(props) {
                 <div className='periods-table'>
                     {periodRows}
                 </div>
+                <TextNotificationsSignUp />
+                <TextNotificationsDelete />
             </div>
         </>
-        
     );
 }
 
