@@ -96,6 +96,7 @@ export default function TextNotificationsSignUp(props) {
                                 <option value='mms.att.net'>AT&T</option>
                                 <option value='tmomail.net'>T-Mobile</option>
                                 <option value='vzwpix.com'>Verizon Wireless</option>
+                                <option value='mypixmessages.com'>Xfinity Mobile</option>
                             </Form.Select>
                         </Form.Group>
                         <Form.Group className='mb-3' controlId='tnTerms'>
