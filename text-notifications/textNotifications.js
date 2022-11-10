@@ -76,6 +76,9 @@ async function getNotificationAndUpdateUser(user) {
     if(assignmentUpdates.length == 0) return;
     else if(assignmentUpdates >= MAX_ASSIGNMENT_UPDATES) return;
     else {
+        //temporary: disable for AT&T
+        if(user.mmsEmail.includes('mms.att.net')) return;
+
         //generate text message
         let text = '';
         let assignmentUpdateTexts = [];
