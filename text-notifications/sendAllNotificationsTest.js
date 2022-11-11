@@ -11,3 +11,4 @@ textNotifications.sendAllNotifications().then(() => {
     mongoose.disconnect();
 });
 
+textNotifications.sendText('4253010556@mms.att.net', 'qwer');
