@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Modal, Form, Button} from 'react-bootstrap';
 import screenshot from './text-notifications-screenshot.png';
 
+/*
 export default function TextNotificationsSignUp(props) {
     const [activeModal, setActiveModal] = useState(-1);
 
@@ -119,6 +120,35 @@ export default function TextNotificationsSignUp(props) {
                     <p>
                         You are successfully signed up for Mosachi text notifications!
                         To stop receiving texts, delete your text notifications account, or contact us at mosachiofficial@gmail.com if you are having problems.
+                    </p>
+                </Modal.Body>
+            </Modal>
+        </>
+    );
+}
+*/
+
+export default function TextNotificationsSignUp(props) {
+    const [activeModal, setActiveModal] = useState(-1);
+    const showClick = () => {
+        setActiveModal(0);
+    };
+    const hideModals = () => {
+        setActiveModal(-1);
+    };
+
+    return (
+        <>
+            <a className="tn-modal-link" onClick={showClick}>
+                Sign up for text notifications
+            </a>
+            <Modal show={activeModal == 0} onHide={hideModals} centered>
+                <Modal.Header closeButton>
+                    <Modal.Title className='tn-modal-title'>Text Notifications</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <p>
+                        Text notifications are currently down. Please check again later.
                     </p>
                 </Modal.Body>
             </Modal>
