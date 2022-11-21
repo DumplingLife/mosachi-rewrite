@@ -8,17 +8,6 @@ const nodemailer = require('nodemailer');
 //if # updates exceeds this, don't send any text
 const MAX_ASSIGNMENT_UPDATES = 5;
 
-/*
-//for some reason this doesn't work anymore
-let transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: 'mosachiofficial@gmail.com',
-        pass: process.env.EMAIL_APP_PASSWORD,
-    }
-});
-*/
-
 let transporter = nodemailer.createTransport({
     service: process.env.EMAIL_SERVICE,
     auth: {
