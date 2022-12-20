@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { calculateGradeDisplay } from './gradeCalc.js';
 import TextNotificationsSignUp from './text-notifications/TextNotificationsSignUp.jsx';
 import TextNotificationsDelete from './text-notifications/TextNotificationsDelete.jsx';
+import './periods-table.css';
 
 export default function PeriodsTable(props) {
     let periodRows = [];

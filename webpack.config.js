@@ -2,13 +2,9 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    main: {
-      import: path.resolve(__dirname, 'frontend', 'src', 'main.jsx'),
-      filename: 'main.bundle.js',
-    },
-    demo: {
-      import: path.resolve(__dirname, 'frontend', 'src', 'demo.jsx'),
-      filename: 'demo.bundle.js',
+    index: {
+      import: path.resolve(__dirname, 'frontend', 'src', 'index.jsx'),
+      filename: 'index.bundle.js',
     },
   },
   module: {
@@ -26,6 +22,13 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
     ]
   },

@@ -76,7 +76,7 @@
     height: 100%;
 }
 .iphone-image {
-    background-image: url("/iphone screenshot.png");
+    background-image: url("./iphone-screenshot.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,27 +113,6 @@
 }
 .about-title {
     margin: 32px 0;
-}
-
-.footer {
-    background-color: #1b1b1b;
-    padding: 4rem 0;
-}
-.footer-logo-circle {
-    height: 80px;
-    margin: 0 auto 1rem auto;
-    display: block;
-}
-.footer-logo-text {
-    height: 54px;
-    margin: auto;
-    display: block;
-}
-.footer-terms-link {
-    margin-top: 16px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 1300px) {

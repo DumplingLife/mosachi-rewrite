@@ -1,0 +1,21 @@
+.footer {
+    background-color: #1b1b1b;
+    padding: 4rem 0;
+}
+.footer-logo-circle {
+    height: 80px;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+.footer-logo-text {
+    height: 54px;
+    margin: auto;
+    display: block;
+    margin-bottom: 16px;
+}
+.footer-link {
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}

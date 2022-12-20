@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-    </head>
-    <body>
-        <pre>  
+import React from 'react';
+import './blog/blog.css';
+
+export default function TermsAndConditions(props) {
+    return (
+        <p className="blog-text">
+{`
 TERMS OF USE
 
 Last updated 6/21/2022
@@ -175,6 +175,7 @@ These Terms of Use and any policies or operating rules posted by us on the Site 
 In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at mosachiofficial@gmail.com
 
 These terms of use were created using Termly's Terms and Conditions Generator.
-        </pre>
-    </body>
-</html>
+`}
+        </p>
+    );
+}
