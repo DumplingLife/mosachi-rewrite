@@ -3,6 +3,8 @@ import { useSearchParams } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Helmet } from 'react-helmet';
+import titleLogo from './title-logo.svg';
+import './login.css';
 
 export default function LoginPage() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -25,7 +27,7 @@ export default function LoginPage() {
             <div className='login-page-container'>
                 <div className='login-container'>
                     <div className='login-title-wrapper'>
-                        <img className='login-title-img' src='/title-logo.svg'></img>
+                        <img className='login-title-img' src={titleLogo}></img>
                     </div>
                     <div className='login-body'>
                         <p className='text-muted'>Login with your StudentVUE credentials</p>

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import PeriodsTable from './PeriodsTable.jsx';
 import PeriodWrapper from './PeriodWrapper.jsx';
-import MediaNetAd from './MediaNetAd.jsx';
 import { Helmet } from 'react-helmet';
 
 export default function GradesPages(props) {
@@ -35,7 +34,6 @@ export default function GradesPages(props) {
                     <Route path='/' element={<PeriodsTable gradebook={gradebook.data} />} />
                     <Route path='/:id' element={<PeriodWrapper initialGradebook={gradebook.data} />} />
                 </Routes>
-                <MediaNetAd />
             </>
         );
     }

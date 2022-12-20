@@ -6,8 +6,8 @@ test('synergy regular API call', (done) => {
     synergy.getGradebook(process.env.TEST_USERNAME, process.env.TEST_PASSWORD, process.env.TEST_URLSUBDOMAIN).then((gradebook) => {
         expect(gradebook.length).toBe(7);
         //quick spot checks
-        expect(gradebook[3].name).toBe('AP US Government');
-        expect(gradebook[6].name).toBe('Photography 2');
+        expect(gradebook[3].name).toBe('AP Phys C -Mech');
+        expect(gradebook[5].name).toBe('AP Biology');
 
         for(let period of gradebook) {
             expect(period.name).toBeDefined();

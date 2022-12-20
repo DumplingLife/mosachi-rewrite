@@ -4,6 +4,7 @@ import AssignmentGrid from "./AssignmentGrid.jsx";
 import CategoryGrid from "./CategoryGrid.jsx";
 import _ from 'lodash';
 import { calculateGradeDisplay } from './gradeCalc.js';
+import './period.css';
 
 export default function Period(props) {
     //override assignment ids

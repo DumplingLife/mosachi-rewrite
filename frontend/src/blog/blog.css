@@ -1,0 +1,12 @@
+.blog-container {
+    margin: 32px auto;
+    padding: 50px;
+    max-width: 1000px;
+    min-height: 70vh;
+}
+.blog-heading {
+    margin-bottom: 48px;
+}
+.blog-text {
+    white-space: pre-wrap;
+}

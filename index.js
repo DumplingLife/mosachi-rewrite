@@ -68,17 +68,14 @@ app.post('/text-notifications/delete', (req, res) => {
 
 
 //frontend routes
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend', 'public', 'main.html'));
+app.get(['/', '/login', '/terms-and-conditions', '/blog', '/blog/*'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'));
 });
 app.get(['/periods', '/periods/:id'], (req, res) => {
     if(!req.session.loggedIn) res.redirect('/login');
-    else res.sendFile(path.join(__dirname, 'frontend', 'public', 'main.html'));
+    else res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'));
 });
 app.use(express.static(path.join(__dirname, 'frontend', 'public')));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend', 'public', 'landing.html'));
-});
 
 //catchall redirect
 app.get('*', (req, res) => {
