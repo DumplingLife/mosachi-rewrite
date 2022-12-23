@@ -9,6 +9,7 @@ export default function Blog(props) {
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1524304756947795" crossorigin="anonymous"></script>
             </Helmet>
             <div className="blog-container">
+                <a href="/blog"><i className='fa fa-arrow-left'></i> Back</a>
                 <h1 className="blog-heading">{props.heading}</h1>
                 <p className="blog-text">{props.text}</p>
             </div>
