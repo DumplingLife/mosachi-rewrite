@@ -29,6 +29,7 @@ export default function GradesPages(props) {
             <>
                 <Helmet>
                     <title>Mosachi - The Smart Gradebook</title>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1524304756947795" crossorigin="anonymous"></script>
                 </Helmet>
                 <Routes>
                     <Route path='/' element={<PeriodsTable gradebook={gradebook.data} />} />
