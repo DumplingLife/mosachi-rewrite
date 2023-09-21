@@ -56,7 +56,7 @@ function calculateGrade(period) {
  *     (it doesn't need to match with assignment not graded string)
  * this will not mutate period, it will clone anything neccessary
  */
-function calculateCategroyDetails(period) {
+function calculateCategoryDetails(period) {
     let categories = _.cloneDeep(period.categories);
     for(let category of categories) {
         category.pointsEarned = 0;
@@ -76,7 +76,7 @@ function calculateCategroyDetails(period) {
     return categories;
 }
 function calculateCategoryDetailsDisplay(period) {
-    let categoriesWithDetails = calculateCategroyDetails(period);
+    let categoriesWithDetails = calculateCategoryDetails(period);
     for(let category of categoriesWithDetails) {
         if(category.grade == CATEGORY_NOT_GRADED_STR) category.displayGrade = 'N/A';
         else category.displayGrade = (100*category.grade).toFixed(2) + '%';
